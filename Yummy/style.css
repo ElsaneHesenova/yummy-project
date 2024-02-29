@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: red;
+    --primary-font: "Amatic SC", sans-serif;
+    }
+  
+    /* HEADER START */
+header{
+    background-color: white;
+   
+}
+.logo h1 span {
+    color: red
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+list-style: none;
+}
+a{
+    text-decoration:none;
+color: white;
+/* HEADER START */
+
+}
+header .btns a{
+    padding: 8px 20px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    
+   
+}
+:root {
+    --primary-color: red;}
+/* HERO-SECTION */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#hero{
+margin-top: 80px;
+padding: 50px 0px;
+background-color: #eee;
+}
+.hero__btn a {
+    padding: 8px 20px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+
+#hero h3{
+    font-family: var(--primary-font);
+    font-size: 64px;
+    font-weight: 700;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ABOUT-SECTION */
+
+
+#about .container .head h5{
+    font-family: var(--primary-font);
+    font-size: 48px;
+}
+
+#events .container .head h5{
+    font-family: var(--primary-font);
+    font-size: 48px;
+}
+
+
+#about .container .head h5 span{
+    color:#ce1212;;
+}
+
+#events .container .head h5 span{
+    color:#ce1212;;
+}
+
+
+
+.about_img{
+   background-image: url(./about.jpg);
+   background-size: cover;
+   height: 670px;
+   
+  
+}
+
+iframe{
+    width: 478px;
+    height: 358.5px;
+}
+
+/* events-section */
+
+#events{
+    width: 100%;
+}
+
+.img{
+    background-image: url(./events-1.jpg);
+    height: 600px;
+    background-size: cover;
+ 
+}
+
+.events-text{
+    color: white;
+    margin-left: 30px;
+}
+
+
+#chefs .container .row .card:hover{
+    transition: 0.3s;
+}
+
+
+
+ #chefs .container .row .card:hover{
+    scale: 1.09;
+} 
+
+
+#chefs {
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+#chefs .container .head h4{
+   
+    font-size: 13px;
+}
+
+#chefs .container .head h5 span{
+    color: #ce1212
+}
+
+
+#chefs .container .head h5{
+    font-family: var(--primary-font);
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+
+}
+
+
+/* CONTACT-SECTION */
+
+
+#contact .container .head h4{
+   
+    font-size: 13px;
+}
+
+#contact .container .head h5{
+    font-family: var(--primary-font);
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+
+}
+
+#contact .container .head h5 span{
+    color: #ce1212
+}
+
+.contact .btn:hover {
+    background: #ec2727;
+}
+
+
+
+.container .btn{
+    background: red;
+    border: 0;
+    padding: 12px 40px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+/* .container .form-control {
+    padding: 10px 12px;
+    height: 126.6px;
+    width: ; */
+/* } */
+
+.container .form {
+    padding: 10px 12px;
+    height: 100px;
+    width: 100%;
+ }
